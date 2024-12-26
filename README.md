@@ -4,7 +4,7 @@
 ## Description
 `xl-killfeed` is a FiveM script that provides a customizable kill feed for your server. It displays player kills in a visually appealing manner, enhancing the overall gaming experience.
 
-![alt text](https://utfs.io/f/ZHCCUM4tDq0QTJzF3XGnyRzIBaFDde0AVNU2krXx48osijPp)
+![xl-killfeed](https://utfs.io/f/ZHCCUM4tDq0QTJzF3XGnyRzIBaFDde0AVNU2krXx48osijPp)
 
 ## Features
 - Easy to configure and integrate
