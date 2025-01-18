@@ -2,7 +2,10 @@ RegisterNetEvent('xl-killfeed:client:addFeedEntry')
 AddEventHandler('xl-killfeed:client:addFeedEntry', function(data)
     SendNUIMessage({
         action = 'addFeedEntry',
-        data = { killerName = data.killerName, victimName = data.victimName }
+        data = {
+            killerName = data.killerName,
+            victimName = data.victimName
+        }
     })
 end)
 

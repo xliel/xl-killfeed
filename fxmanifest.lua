@@ -4,7 +4,7 @@ lua54 'yes'
 
 author 'xliel development'
 description 'A simple killfeed script for FiveM'
-version '1.0.0'
+version '1.0.1'
 
 shared_scripts { 'shared/config.lua' }
 server_scripts { 'server/*.lua' }
