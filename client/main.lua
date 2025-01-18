@@ -2,7 +2,7 @@ RegisterNetEvent('xl-killfeed:client:addFeedEntry')
 AddEventHandler('xl-killfeed:client:addFeedEntry', function(data)
     SendNUIMessage({
         action = 'addFeedEntry',
-        data = {killerName = data.killerName, victimName = data.victimName}
+        data = { killerName = data.killerName, victimName = data.victimName }
     })
 end)
 
@@ -34,4 +34,16 @@ AddEventHandler('gameEventTriggered', function(event, data)
             })
         end
     end
+end)
+
+AddEventHandler('onResourceStart', function(resourceName)
+    if resourceName and resourceName ~= GetCurrentResourceName() then
+        return
+    end
+
+    Wait(1000)
+    SendNUIMessage({
+        action = 'setKillfeedPosition',
+        data = Config.position
+    })
 end)
