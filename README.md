@@ -18,6 +18,10 @@
   ensure xl-killfeed
 ```
 
+## Looking for More PvP Scripts?
+Enhance your server even further with additional premium PvP scripts!
+Visit our store: [PvP Script Series](https://tebex.xliel.xyz/category/pvp-series)
+
 ## Credits
 Special thanks to the [MiGhetto RZ](https://discord.gg/mighetto) server for inspiring the design.
 
